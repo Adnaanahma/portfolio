@@ -19,8 +19,8 @@ import SkillBadge from "@/components/skill-badge"
 import ExperienceItem from "@/components/experience-item"
 
 export default function Home() {
-  // Update this URL to your blob storage URL where you've uploaded your CV
-  const cvUrl = "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Hashim_Adnanahmad_CV.pdf"
+  // CV URL - This will work in production when you upload the PDF to your blob storage
+  const cvUrl = "/Hashim_Adnanahmad_CV.pdf"
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -132,10 +132,10 @@ export default function Home() {
                     <span className="font-semibold">Location:</span> Lagos Nigeria
                   </div>
                   <div>
-                    <span className="font-semibold">Experience:</span> Backend Development
+                    <span className="font-semibold">Experience:</span> 3+ Years Backend Development
                   </div>
                   <div>
-                    <span className="font-semibold">Education:</span> Botany
+                    <span className="font-semibold">Education:</span> B.Sc. Plant Science
                   </div>
                   <div>
                     <span className="font-semibold">Languages:</span> English
@@ -148,13 +148,13 @@ export default function Home() {
               </Card>
             </div>
             <div className="flex justify-center mt-8">
-                <Button variant="default" className="flex items-center gap-2" asChild>
-                     <a href="/Hashim_Adnanahmad_CV.pdf" download="Hashim_Adnanahmad_CV.pdf">
-                      <Download className="h-4 w-4" />
-                           Download CV
-                  </a>
-               </Button>
-          </div>
+              <Button variant="default" className="flex items-center gap-2" asChild>
+                <a href={cvUrl} download="Hashim_Adnanahmad_CV.pdf">
+                  <Download className="h-4 w-4" />
+                  Download CV
+                </a>
+              </Button>
+            </div>
           </div>
         </section>
 
@@ -226,7 +226,7 @@ export default function Home() {
                 <SkillBadge name="Git" />
                 <SkillBadge name="Docker" />
                 <SkillBadge name="Azure" />
-                <SkillBadge name="Workbench" />
+                <SkillBadge name="AWS" />
                 <SkillBadge name="Postman API" />
                 <SkillBadge name="Swagger API" />
                 <SkillBadge name="Multithreading" />
@@ -318,24 +318,32 @@ export default function Home() {
               title="Backend Developer"
               company="InternPulse"
               period="June 2024 - March 2025"
-              description="Developing and maintaining backend systems and APIs for various applications. Implementing database designs, optimizing queries, and ensuring high performance of backend services."
-              technologies={["ASP.NET Core", "C#", "MySQL Server", "Entity Framework", "REST API"]}
+              description="Developed backend systems for financial platforms using .NET Core, MySQL, and JWT. Integrated Paystack for payment processing with refunds and verification endpoints. Enhanced API performance and ensured secure, scalable backend systems."
+              technologies={[
+                "ASP.NET Core",
+                "C#",
+                "MySQL Server",
+                "Entity Framework",
+                "REST API",
+                "JWT",
+                "Paystack API",
+              ]}
             />
 
             <ExperienceItem
               title="Freelance Software Developer"
               company="Self-employed"
-              period="January 2024 - Present"
-              description="Designing and developing custom software solutions for various clients. Building backend systems, APIs, and database solutions tailored to client requirements. Implementing best practices in software development and maintaining high-quality code standards."
-              technologies={[".NET Core", "C#", "MySQL", "SQL Server", "REST API", "ASP.NET MVC"]}
+              period="February 2022 - Present"
+              description="Developed backend microservices using .NET Core and MSSQL; exposed via REST APIs. Built an Employee Self-Service portal using MVC for HR tasks and profile management. Delivered maintainable, client-tailored solutions following SDLC principles."
+              technologies={[".NET Core", "C#", "MSSQL", "SQL Server", "REST API", "ASP.NET MVC", "SDLC"]}
             />
 
             <ExperienceItem
-              title="IT Administration Office"
-              company="Forestry Research Institute Of Nigeria Jericho Hill"
+              title="IT Intern"
+              company="Forestry Research Institute of Nigeria"
               period="February 2023 - January 2024"
-              description="Managed IT infrastructure and systems for the institute. Provided technical support, maintained computer systems, and assisted with database management and network administration."
-              technologies={[".NET", "SQL", "Network Administration", "System Maintenance", "Technical Support"]}
+              description="Contributed to biomedical research projects including regenerative medicine and cancer research. Supported data-driven research and managed documentation for genetic analysis systems."
+              technologies={["Data Analysis", "Research Documentation", "System Management", "Technical Support"]}
             />
           </div>
         </section>
