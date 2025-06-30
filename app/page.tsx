@@ -20,7 +20,7 @@ import ExperienceItem from "@/components/experience-item"
 
 export default function Home() {
   // CV URL - This will work in production when you upload the PDF to your blob storage
-  const cvUrl = "/Hashim-Adnanahmad-CV-Updated.pdf"
+  const cvUrl = "/Hashim_Adnanahmad_CV.pdf"
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -149,9 +149,9 @@ export default function Home() {
             </div>
             <div className="flex justify-center mt-8">
               <Button variant="default" className="flex items-center gap-2" asChild>
-                <a href={cvUrl} download="Hashim_Adnanahmad_CV.pdf">
-                  <Download className="h-4 w-4" />
-                  Download CV
+               <a href="/Hashim_Adnanahmad_CV.pdf" download>
+                   <Download className="h-4 w-4" />
+                     Download CV
                 </a>
               </Button>
             </div>
