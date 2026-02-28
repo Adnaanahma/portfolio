@@ -149,9 +149,9 @@ export default function Home() {
             </div>
             <div className="flex justify-center mt-8">
               <Button variant="default" className="flex items-center gap-2" asChild>
-               <a href="/Hashim_Adnanahmad_CV.pdf" download>
-                   <Download className="h-4 w-4" />
-                     Download CV
+                <a href="/Hashim_Adnanahmad_CV.pdf" download>
+                  <Download className="h-4 w-4" />
+                  Download CV
                 </a>
               </Button>
             </div>
@@ -331,7 +331,7 @@ export default function Home() {
 
             <ExperienceItem
               title="Remote Software Developer"
-              company="Peers Consulting | RinGard As"
+              company="Peers Consulting | RinGardas"
               period="June 2024 - Feb 2025"
               description="Contributed to backend and frontend development of applications with specified architecture. Designed and implemented product features in collaboration with product teams and business stakeholders. Performed all phases of software development including requirements analysis, planning, design, development and testing."
               technologies={["Backend Development", "Frontend Development", "Software Architecture", "Testing"]}
