@@ -138,7 +138,7 @@ export default function Home() {
                     <span className="font-semibold">Education:</span> B.Sc. Plant Science
                   </div>
                   <div>
-                    <span className="font-semibold">Languages:</span> English
+                    <span className="font-semibold">Languages:</span> C#, SQL, JavaScript, HTML, CSS, English
                   </div>
                   <div>
                     <span className="font-semibold">Interests:</span> .NET Development, API Design, Database
@@ -149,9 +149,9 @@ export default function Home() {
             </div>
             <div className="flex justify-center mt-8">
               <Button variant="default" className="flex items-center gap-2" asChild>
-               <a href="/Hashim_Adnanahmad_CV.pdf" download>
-                   <Download className="h-4 w-4" />
-                     Download CV
+                <a href="/Hashim_Adnanahmad_CV.pdf" download>
+                  <Download className="h-4 w-4" />
+                  Download CV
                 </a>
               </Button>
             </div>
@@ -315,35 +315,42 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-8">Work Experience</h2>
           <div className="space-y-6">
             <ExperienceItem
-              title="Backend Developer"
-              company="InternPulse"
-              period="June 2024 - March 2025"
-              description="Developed backend systems for financial platforms using .NET Core, MySQL, and JWT. Integrated Paystack for payment processing with refunds and verification endpoints. Enhanced API performance and ensured secure, scalable backend systems."
+              title="Remote Software Engineer"
+              company="Crude City Global Ltd"
+              period="March 2025 - Dec 2025"
+              description="Engineered and maintained full-stack HR applications using ASP.NET Core MVC and C#. Developed key modules for employee records, payroll, recruitment, and performance appraisals. Designed secure RESTful API endpoints and implemented complex business logic for HR processes including role-based access controls."
               technologies={[
                 "ASP.NET Core",
                 "C#",
-                "MySQL Server",
-                "Entity Framework",
+                "Entity Framework Core",
                 "REST API",
-                "JWT",
-                "Paystack API",
+                "Role-Based Access Control",
+                "AJAX/Fetch",
               ]}
             />
 
             <ExperienceItem
-              title="Freelance Software Developer"
-              company="Self-employed"
-              period="February 2022 - Present"
-              description="Developed backend microservices using .NET Core and MSSQL; exposed via REST APIs. Built an Employee Self-Service portal using MVC for HR tasks and profile management. Delivered maintainable, client-tailored solutions following SDLC principles."
-              technologies={[".NET Core", "C#", "MSSQL", "SQL Server", "REST API", "ASP.NET MVC", "SDLC"]}
+              title="Remote Software Developer"
+              company="Peers Consulting | RinGardas"
+              period="June 2024 - Feb 2025"
+              description="Contributed to backend and frontend development of applications with specified architecture. Designed and implemented product features in collaboration with product teams and business stakeholders. Performed all phases of software development including requirements analysis, planning, design, development and testing."
+              technologies={["Backend Development", "Frontend Development", "Software Architecture", "Testing"]}
             />
 
             <ExperienceItem
-              title="IT Intern"
-              company="Forestry Research Institute of Nigeria"
-              period="February 2023 - January 2024"
-              description="Contributed to biomedical research projects including regenerative medicine and cancer research. Supported data-driven research and managed documentation for genetic analysis systems."
-              technologies={["Data Analysis", "Research Documentation", "System Management", "Technical Support"]}
+              title="Backend Developer (Contract)"
+              company="InternPulse"
+              period="Feb 2023 - May 2024"
+              description="Designed and developed backend systems using C# and .NET Core for high-performance financial applications. Integrated Paystack API for seamless transaction management including refunds and verifications. Built secure RESTful APIs using JWT-based authentication and implemented role-based authorization."
+              technologies={[
+                "C#",
+                ".NET Core",
+                "Entity Framework Core",
+                "JWT Authentication",
+                "REST API",
+                "Paystack API",
+                "LINQ",
+              ]}
             />
           </div>
         </section>
