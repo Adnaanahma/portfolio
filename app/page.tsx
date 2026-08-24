@@ -77,9 +77,9 @@ export default function Home() {
         <section className="py-20 md:py-28 container">
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="flex-1 space-y-4">
-              <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Backend .NET Developer</h1>
+              <h1 className="text-4xl md:text-5xl font-bold tracking-tight">Software Engineer</h1>
               <p className="text-xl text-muted-foreground">
-                Building robust, scalable backend systems with C# and .NET technologies
+                Backend & Full-Stack Engineer | .NET Core, C#, Web APIs & Modern Frontend Architecture
               </p>
               <div className="flex gap-4 pt-4">
                 <Button asChild>
