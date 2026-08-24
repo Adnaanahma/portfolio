@@ -93,7 +93,7 @@ export default function Home() {
             <div className="flex-1 flex justify-center">
               <div className="relative w-64 h-64 rounded-full overflow-hidden border-4 border-primary/20">
                 <img
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/WhatsApp%20Image%202025-03-05%20at%2011.47.25_46239168.jpg-1vHXIH61mz9lviV5MjPS5iR3CvpIK5.jpeg"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image.png-p1uE3zqQEi4YyADTqX7twm7BqrensU.jpeg"
                   alt="Hashim Adnanahmad"
                   className="object-cover"
                 />
