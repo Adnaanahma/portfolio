@@ -109,9 +109,8 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-8">
               <div className="space-y-4">
                 <p>
-                  I'm a passionate backend developer specializing in .NET technologies with a strong foundation in C#
-                  and ASP.NET Core. My expertise lies in designing and implementing robust, scalable backend systems
-                  that power modern web applications.
+                  Software Engineer with 4+ years of experience designing, developing, and maintaining scalable web applications using C#, .NET Core, ASP.NET Core, Entity Framework Core, SQL Server, and Azure cloud services. Experienced in building RESTful APIs, implementing secure authentication and authorization, and delivering enterprise solutions across business and financial domains. Skilled in AI-assisted software development, leveraging modern coding assistants to accelerate development, improve code quality, and enhance productivity. Strong collaborator with experience gathering requirements, working with stakeholders, and delivering reliable solutions in Agile and remote environments.
+
                 </p>
                 <p>
                   I excel at building RESTful APIs, implementing efficient database solutions, and ensuring high
@@ -132,13 +131,13 @@ export default function Home() {
                     <span className="font-semibold">Location:</span> Lagos Nigeria
                   </div>
                   <div>
-                    <span className="font-semibold">Experience:</span> 3+ Years Backend Development
+                    <span className="font-semibold">Experience:</span> 4+ Years Backend Development
                   </div>
                   <div>
                     <span className="font-semibold">Education:</span> B.Sc. Plant Science
                   </div>
                   <div>
-                    <span className="font-semibold">Languages:</span> C#, SQL, JavaScript, HTML, CSS, English
+                    <span className="font-semibold">Languages:</span> C#, .NET, SQL, JavaScript, TypeScript,Node.Js, HTML, CSS, English
                   </div>
                   <div>
                     <span className="font-semibold">Interests:</span> .NET Development, API Design, Database
@@ -176,6 +175,7 @@ export default function Home() {
                 <SkillBadge name=".NET Core" />
                 <SkillBadge name="Node.js" />
                 <SkillBadge name="JavaScript" />
+                <SkillBadge name="TypeScript" />
                 <SkillBadge name="HTML/CSS" />
               </CardContent>
             </Card>
@@ -314,6 +314,21 @@ export default function Home() {
         <section id="experience" className="py-16 container">
           <h2 className="text-3xl font-bold mb-8">Work Experience</h2>
           <div className="space-y-6">
+            <ExperienceItem
+              title="Software Engineer"
+              company="CHAMSACCESS Ltd"
+              period="Jan 2026 - Present"
+              description="Collaborated with business stakeholders to gather requirements and translate them into technical solutions.Participated in software architecture discussions, solution design, and system optimization initiatives. Utilized Git-based workflows and collaborative development practices to maintain code quality and release stability. Leveraged AI-assisted development tools to improve productivity, accelerate implementation, and streamline debugging activities. Recommend, schedule, and perform software improvements and upgrades Write, translate, and code software programme and applications according to specifications and standards Liaise with the Risk & Quality Management and Strategy & Innovation to ensure quality and timely software development within responsibilities.
+"
+              technologies={[
+                "ASP.NET Core",
+                "C#",
+                "Entity Framework Core",
+                "REST API",
+                "Role-Based Access Control",
+                "Typescript", "Node.Js", "Linq"
+              ]}
+            />
             <ExperienceItem
               title="Remote Software Engineer"
               company="Crude City Global Ltd"
